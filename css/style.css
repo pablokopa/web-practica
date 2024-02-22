@@ -48,11 +48,11 @@ header nav ul li a:hover{
     background-color: #1163cf;
 }
 
-/*FORMULARIO*/
-form{
+/*FORMULARIO USUARIO/CONTRASEÑA*/
+#formuser{
     float: right;
-    margin-top: 300px;
-    margin-right: 200px;
+    margin-top: 180px;
+    margin-right: 170px;
     padding: 20px;
     border: 2px solid #e72c44;
 }
@@ -74,8 +74,24 @@ input[type=submit] {
     border-radius: 5px; 
 }
 
-#formulario, #wallpaper{
+#formulariouser, #wallpaper, #formulariopeli{
     display: inline;
+}
+
+/*FORMULARIO SELECTOR PELICULA*/
+
+#formpeli{
+    position: absolute;
+    float: right;
+    top: 700px;
+    left: 1520px;
+    padding: 20px;
+    border: 2px solid #e72c44;
+}
+
+#peli{
+    border: 1px solid #e72c44;
+    margin-top: 15px;
 }
 
 /*IMAGEN-TEXTO*/
@@ -95,23 +111,23 @@ input[type=submit] {
     color: #fffdfa;
     text-shadow: 1px 1px 2px black;
     font-size: 16px;
-    background-color: #e72c44;
+    /*background-color: #e72c44;
     border:2px solid #fffdfa;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.3);
-    padding: 10px;
+    padding: 10px;*/
 }
 
 /*Texto Invisible*/
-figcaption {
+/*figcaption {
     display:none; 
     transition: all .5s;
-}
+}*/
 
 /*Texto Visible*/
-figure:hover > figcaption {
+/*figure:hover > figcaption {
     display:block;
     transition: all .5s;
-}
+}*/
 
 /*FOOTER*/
 footer{
