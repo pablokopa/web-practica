@@ -1,0 +1,218 @@
+*{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+    margin: 0px;
+    margin-bottom: 40px;
+    background-color: #fffdfa;
+}
+
+/*HEADER*/
+.header1{
+    width: 100%;
+    height: 170px;
+    padding: 0px;
+    margin: 0px;
+}
+
+header nav ul{
+    background-color: #e72c44;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+header nav ul li{
+    float: left;
+    border-right: 1px solid #fffdfa;
+}
+
+header nav ul li a{
+    display: block;
+    color: #fffdfa;
+    text-align: center;
+    padding: 20px 155px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+header nav ul li a:hover{
+    background-color: #1163cf;
+}
+
+/*FORMULARIO*/
+form{
+    float: right;
+    margin-top: 300px;
+    margin-right: 200px;
+    padding: 20px;
+    border: 2px solid #e72c44;
+}
+
+input[type=text], input[type=password] {
+    padding:2px; 
+    border:2px solid #e72c44;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#e72c44;
+    color: #fffdfa;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+#formulario, #wallpaper{
+    display: inline;
+}
+
+/*IMAGEN-TEXTO*/
+.spiderman{
+    width: 60%;
+    margin: 75px;
+    margin-left: 150px;
+    border:2px solid #e72c44;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+#texto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -34%);
+    color: #fffdfa;
+    text-shadow: 1px 1px 2px black;
+    font-size: 16px;
+    background-color: #e72c44;
+    border:2px solid #fffdfa;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+
+/*Texto Invisible*/
+figcaption {
+    display:none; 
+    transition: all .5s;
+}
+
+/*Texto Visible*/
+figure:hover > figcaption {
+    display:block;
+    transition: all .5s;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #e72c44;
+    position: absolute;
+    padding: 8px;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    color: #fffdfa;
+}
+
+#foot-text{
+    float: left;
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+#x{
+    width: 30px;
+    float: left;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
+#instagram{
+    width: 30px;
+    float: left;
+    margin-left: 290px;
+    margin-top: 10px;
+}
+
+#facebook{
+    width: 30px;
+    float: left;
+    margin-left: 330px;
+    margin-top: 10px;
+}
+
+#youtube{
+    width: 30px;
+    float: left;
+    margin-left: 370px;
+    margin-top: 14px;
+}
+
+/*TABLA (peliculas.html)*/
+table, th, td {
+    border:2px solid #e72c44;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+table{
+    width: 90%;
+    margin: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 150px;
+}
+
+/*DARK-LIGHT MODE*/
+.mode {
+    position: absolute;
+    margin: 12px;
+    top: 2%;
+    left: 91%;
+}
+
+.change {
+    margin: 10px;
+    cursor: pointer;
+    border: 2px solid #e72c44;
+    width: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 8px;
+    font-weight: bold;
+    color: #fffdfa;
+}
+
+.dark{
+    background-color: #222;
+    color: #fffdfa;
+}
+
+.dark li{
+    float: left;
+    border-right: 1px solid #222;
+}
+
+.dark #texto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -34%);
+    color: #222;
+    text-shadow: 1px 1px 2px #fffdfa;
+    font-size: 16px;
+    background-color: #e72c44;
+    border:2px solid #222;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Spiderman Corporation™</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+<body>
+    <div>
+        <a href="../index.html"><img class="header1" src="../img/header.png"></a>
+        <div class="mode">           
+            <span class="change">DARK MODE</span>
+        </div>
+    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">NOVEDADES</a></li>
+                <li><a href="series.html">SERIES</a></li>
+                <li><a href="peliculas.html">PELICULAS</a></li>
+                <li><a href="#">XOGOS</a></li>
+                <li><a href="#">SOBRE MIN</a></li>
+            </ul>
+        </nav>
+    </header>
+    <table>
+        <tr>
+            <th>Título</th>
+            <th>Resumo</th>
+            <th>Datos</th>
+            <th>Trailer</th>
+        </tr>
+        <tr>
+            <td>One Peace</td>
+            <td>"One Piece" es una serie de manga y anime que sigue las aventuras de Monkey D. Luffy y su tripulación en busca del legendario tesoro conocido como el One Piece. Luffy, con el poder de la Fruta del Diablo, busca convertirse en el Rey de los Piratas. En su viaje, enfrentan a poderosos enemigos, exploran islas exóticas y hacen nuevos amigos. La serie está llena de acción, comedia y momentos emocionantes. A lo largo de la historia, Luffy y su equipo se enfrentan a la organización mundial del Gobierno Mundial y a los Yonko, los cuatro piratas más poderosos del mundo.</td>
+            <td><b>Año: </b>2023 <br><b>Pais: </b>EE.UU/Japón<br><b>Presupuesto: </b>150 millones <br><b>Género: </b>Aventura/Fantasía</td>
+            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/kf7SncX8Gvw?si=5nnRb3O2salB-Z_B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+        </tr>
+        <tr>
+            <td>Vikingos: Valhalla</td>
+            <td>"Vikingos: Valhalla" es una serie de televisión que sigue las aventuras de algunos de los vikingos más famosos, como Leif Erikson, Freydis Eriksdotter y Harald Sigurdsson, mientras exploran nuevos territorios y se enfrentan a desafíos políticos y personales en el siglo XI. La serie está ambientada en la época posterior a la muerte de Ragnar Lothbrok y se centra en la expansión vikinga en Europa, especialmente en lugares como Inglaterra y Escandinavia. Con una trama llena de acción, intriga y exploración, "Vikingos: Valhalla" ofrece un vistazo al legado duradero de los vikingos y su influencia en la historia europea.</td>
+            <td><b>Año: </b>2022 <br><b>Pais: </b>EE.UU<br><b>Presupuesto: </b>80 millones <br><b>Género: </b>Aventura/Historico</td>
+            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/79E6-NqwaoE?si=kqhZrp2rqvRfrQMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+        </tr>
+      </table> 
+      <footer>
+        <p id="foot-text">Spiderman Corporation™</p>
+        <a href="https://twitter.com/SpiderMan"><img id="x" src="../img/websites/x.png"></a>
+        <a href="https://www.instagram.com/spiderman/"><img id="instagram" src="../img/websites/instagram.png"></a>
+        <a href="https://www.facebook.com/ElHombreAranaOficial/?locale=es_LA"><img id="facebook" src="../img/websites/facebook.png"></a>
+        <a href="https://www.youtube.com/c/spiderman"><img id="youtube" src="../img/websites/youtube.png"></a>
+    </footer>
+    <script>
+        $( ".change" ).on("click", function() {
+            if( $( "body" ).hasClass( "dark" )) {
+                $( "body" ).removeClass( "dark" );
+                $( ".change" ).text( "DARK MODE" );
+            } else {
+                $( "body" ).addClass( "dark" );
+                $( ".change" ).text( "LIGHT MODE" );
+            }
+        });
+    </script>
+</body>
+</html>

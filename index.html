@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Spiderman Corporation™</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+<body>
+    <div>
+        <a href="index.html"><img class="header1" src="img/header.png"></a>
+        <div class="mode">
+            <span class="change">DARK MODE</span>
+        </div>
+    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">NOVEDADES</a></li>
+                <li><a href="html/series.html">SERIES</a></li>
+                <li><a href="html/peliculas.html">PELICULAS</a></li>
+                <li><a href="#">XOGOS</a></li>
+                <li><a href="#">SOBRE MIN</a></li>
+            </ul>
+        </nav>
+    </header>
+    <figure id="wallpaper">
+        <img class="spiderman" src="img/wallpaper.jpg">
+        <figcaption id="texto">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dignissim tortor vitae justo porttitor, vitae interdum est bibendum. Nam id ullamcorper mauris, sed suscipit mi. Vestibulum fermentum iaculis nisl. Duis tincidunt auctor lorem ac vestibulum. Praesent id nibh at enim sagittis vulputate. Ut quis egestas est, eu vestibulum nulla. Nulla facilisi. 
+            Quisque urna lectus, maximus ut luctus nec, tempor non mauris. Aenean tempus risus eu sollicitudin lobortis. Curabitur posuere, nunc sed condimentum imperdiet, ligula est tincidunt mi, vel sagittis mi leo luctus ipsum. Quisque dapibus augue eget ultrices hendrerit. Nullam mi ipsum, tempus non orci ut, aliquam condimentum diam. Sed neque felis, interdum at lectus id, tempor ultricies odio. Aliquam et commodo tellus. Donec quis vulputate orci.   
+            Phasellus nisi sem, tristique id massa et, molestie aliquam est. Nunc rhoncus tortor turpis, rhoncus pharetra turpis ultricies ac. Phasellus et magna et erat vehicula suscipit a in mauris. Maecenas sollicitudin lacus ac nisi imperdiet, eget placerat odio accumsan. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vitae erat quis elit auctor maximus sed interdum ex. Vivamus posuere sagittis magna sed dictum.
+            Nunc eget ipsum nibh. Nunc auctor sed ipsum sed lobortis. Nunc nec tempus dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam porttitor risus eu erat ultricies, in luctus elit ultricies. Quisque pretium, nisl ut rutrum cursus, leo quam blandit nisl, ut scelerisque sem nulla quis ligula. Mauris nec tortor a ante imperdiet laoreet. Ut tristique ultricies lectus et dignissim. Morbi nisi augue, interdum non elit a, convallis aliquam urna. Sed mollis enim vel sodales egestas. Quisque ac libero tincidunt, varius turpis id, sodales purus. Aenean malesuada semper nisi vel mollis. Vivamus vel auctor eros. Pellentesque rutrum tempor ligula, vel sodales ante interdum id. In mauris lectus, semper vel augue et, placerat condimentum tellus. Maecenas sodales id dolor nec imperdiet.
+            Suspendisse eget nisl pulvinar, pretium diam nec, lobortis est. Nam blandit ipsum vel molestie scelerisque. Proin laoreet diam massa, ut tincidunt lectus feugiat dictum. Mauris eleifend ultrices massa sed convallis. Nullam turpis tellus, mollis et nibh aliquet, rutrum commodo dui. Proin consectetur a lectus et convallis. Proin eget placerat ligula. Donec in accumsan orci. Quisque commodo mi id turpis malesuada, ut fermentum justo mattis. In hendrerit, nunc non dignissim ullamcorper, massa velit cursus elit, ut mattis eros erat eu nunc. Phasellus eget tempor elit. Aliquam ultricies elit tellus, et pharetra ligula dapibus a. 
+        </figcaption> 
+    </figure>
+    <div id="formulario">
+        <form>
+            <label">Usuario:</label><br>
+            <input type="text" id="usuario" name="usuario"><br><br>
+            <label for="lname">Contrasinal:</label><br>
+            <input type="password" id="contrasinal" name="contrasinal"><br><br>
+            <input type="submit" value="Enviar">
+        </form>    
+    </div>
+    <footer>
+        <p id="foot-text">Spiderman Corporation™</p>
+        <a href="https://twitter.com/SpiderMan"><img id="x" src="img/websites/x.png"></a>
+        <a href="https://www.instagram.com/spiderman/"><img id="instagram" src="img/websites/instagram.png"></a>
+        <a href="https://www.facebook.com/ElHombreAranaOficial/?locale=es_LA"><img id="facebook" src="img/websites/facebook.png"></a>
+        <a href="https://www.youtube.com/c/spiderman"><img id="youtube" src="img/websites/youtube.png"></a>
+    </footer>
+    <script>
+        $( ".change" ).on("click", function() {
+            if( $( "body" ).hasClass( "dark" )) {
+                $( "body" ).removeClass( "dark" );
+                $( ".change" ).text( "DARK MODE" );
+            } else {
+                $( "body" ).addClass( "dark" );
+                $( ".change" ).text( "LIGHT MODE" );
+            }
+        });
+    </script>
+</body>
+</html>
