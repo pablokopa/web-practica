@@ -224,11 +224,11 @@ table{
     top: 50%;
     left: 50%;
     transform: translate(-70%, -34%);
-    color: #222;
-    text-shadow: 1px 1px 2px #fffdfa;
-    font-size: 16px;
+    color: #fffdfa;
+    text-shadow: 1px 1px 2px #222;
+    /*font-size: 16px;
     background-color: #e72c44;
     border:2px solid #222;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.3);
-    padding: 10px;
+    padding: 10px;*/
 }

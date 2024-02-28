@@ -1,0 +1,168 @@
+*{
+    font-family: "Helvetica", "Courier New", monospace;
+}
+
+html {
+    margin: 0px 400px 0px 400px;
+    width: 60%;
+    border: 1px solid #292929;
+    color: #292929;
+}
+
+body{
+    background-color: #e6e6e6;
+}
+
+.general{
+    display: block;
+}
+
+/*PARTE ARRIBA*/
+.div-general-top{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: red; */
+    width: 100%;
+}
+
+/*nombre-titulo*/
+.nombre{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+/*texto-introduccion*/
+.textos{
+    width: 50%;
+}
+
+.div-texto{
+    /* background-color: lightblue; */
+    color: #292929;
+}
+
+.div-texto p{
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+/*foto-cv*/
+.div-foto-cv{
+    margin-top: 15px;
+}
+
+.foto-cv{
+    height: 250px;
+    border: 2px solid #8a8a8a;
+}
+
+/*datos-contacto*/
+.div-contacto{
+    display: flex;
+    justify-content: left;
+    /* background-color: lightblue; */
+}
+
+.telefono{
+    color: #8a8a8a;
+}
+
+.correo{
+    color: #1764ff;
+    text-decoration: underline;
+}
+
+.direccion{
+    color: gray;
+}
+
+/*imagenes-redes-sociales*/
+
+.linkedin, .instagram, .facebook{
+    width: 30px;
+}
+
+/*PARTE ABAJO*/
+.div-general-bot{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    /* background-color: red; */
+    width: 100%;
+}
+
+.columna-izquierda, .columna-derecha{
+    /* background-color: #1764ff; */
+    width: 50%;
+}
+
+.columna-izquierda{
+    margin-right: 2px;
+}
+
+.columna-derecha{
+    margin-left: 2px;
+}
+
+.contenido-izquierda, .contenido-derecha{
+    margin-left: 80px;
+    width: 70%;
+}
+
+.contenido-izquierda h1, .contenido-derecha h1{
+    color: #383838;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.contenido-izquierda h2, .contenido-derecha h2{
+    color: #8a8a8a;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.contenido-izquierda p, .contenido-derecha p{
+    color: #383838;
+    font-size: 16px;
+}
+
+.div-abajo-izq{
+    margin-top: 10px;
+}
+
+.school2{
+    margin-top: 20px;
+}
+
+.div-medio-der ul{
+    margin-left: -20px;
+}
+
+.div-abajo-der ul{
+    margin-left: -20px;
+}
+
+/* LINEA ABAJO */
+hr{
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/* BOTON CAMBIO INDEX */
+.boton {
+    position: absolute;
+    margin: 10px;
+    top: 0;
+    left: 15%;
+}
+
+.change {
+    margin: 10px;
+    cursor: pointer;
+    width: 50px;
+    padding: 10px;
+    margin-left: 8px;
+}
