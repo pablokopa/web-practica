@@ -51,8 +51,8 @@ header nav ul li a:hover{
 /*FORMULARIO USUARIO/CONTRASEÑA*/
 #formuser{
     float: right;
-    margin-top: 180px;
-    margin-right: 170px;
+    margin-top: 150px;
+    margin-right: 188px;
     padding: 20px;
     border: 2px solid #e72c44;
 }
@@ -83,13 +83,29 @@ input[type=submit] {
 #formpeli{
     position: absolute;
     float: right;
-    top: 700px;
+    top: 630px;
     left: 1520px;
     padding: 20px;
     border: 2px solid #e72c44;
 }
 
 #peli{
+    border: 1px solid #e72c44;
+    margin-top: 15px;
+}
+
+/*FORMULARIO SELECTOR SERIE*/
+
+#formserie{
+    position: absolute;
+    float: right;
+    top: 780px;
+    left: 1520px;
+    padding: 20px;
+    border: 2px solid #e72c44;
+}
+
+#serie{
     border: 1px solid #e72c44;
     margin-top: 15px;
 }
@@ -174,7 +190,7 @@ footer{
     margin-top: 14px;
 }
 
-/*TABLA (peliculas.html)*/
+/*TABLA (peliculas.html) y (series.html)*/
 table, th, td {
     border:2px solid #e72c44;
     border-collapse: collapse;
@@ -187,6 +203,26 @@ table{
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 150px;
+}
+
+.imagenes-series{
+    width: 600px;
+}
+
+#one-piece:hover{
+    filter: blur(5px);
+}
+
+#vikings-valhalla:hover{
+    filter: grayscale(1);
+}
+
+#loki:hover{
+    filter: saturate(160);
+}
+
+#stranger-things:hover{
+    filter: opacity(0.5);
 }
 
 /*DARK-LIGHT MODE*/

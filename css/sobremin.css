@@ -10,11 +10,13 @@ html {
 }
 
 body{
-    background-color: #e6e6e6;
+    background-color: #292929;
 }
 
 .general{
     display: block;
+    background-color: #e6e6e6;
+    padding-bottom: 1px;
 }
 
 /*PARTE ARRIBA*/
@@ -29,7 +31,8 @@ body{
 .nombre{
     text-transform: uppercase;
     text-align: center;
-    margin-top: 50px;
+    padding-top: 50px;
+    margin-top: 20px;
     font-weight: bold;
 }
 
