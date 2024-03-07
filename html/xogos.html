@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Spiderman™</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+<body>
+    <div>
+        <a href="../index.html"><img class="header1" src="../img/header.png" alt="Header"></a>
+        <div class="mode">           
+            <span class="change">DARK MODE</span>
+        </div>
+    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">NOVEDADES</a></li>
+                <li><a href="series.html">SERIES</a></li>
+                <li><a href="peliculas.html">PELICULAS</a></li>
+                <li><a href="#">XOGOS</a></li>
+                <li><a href="../html/sobremin.html">SOBRE MIN</a></li>
+            </ul>
+        </nav>
+    </header>
+    <table>
+        <tr>
+            <th>Título</th>
+            <th>Resumen</th>
+            <th>Datos</th>
+            <th>Imágenes</th>
+        </tr>
+        <tr id="d-lol">
+            <td><b>League of Legends</b></td>
+            <td>League of Legends es un popular videojuego de estrategia en tiempo real desarrollado y publicado por Riot Games. Se juega en línea y enfrenta a dos equipos de cinco jugadores cada uno en un campo de batalla virtual llamado "La Grieta del Invocador". Cada jugador asume el control de un campeón con habilidades únicas y debe trabajar en equipo para destruir la base enemiga mientras defiende la suya propia.</td>
+            <td><b>Año: </b>2009 <br><b>Pais: </b>EE.UU<br><b>Desarrolladora: </b>Riot Games <br><b>Género: </b>MOBA</td>
+            <td>
+                <div class="contenedor">
+                    <img src="/img/xogos/lol.jpg" id="lol" class="imagenes-xogos" alt="League of Legends">
+                </div>
+            </td>       
+        </tr>
+        <tr id="d-wow">
+            <td><b>World of Warcraft</b></td>
+            <td>"World of Warcraft" (WoW) es un juego de rol multijugador en línea masivo (MMORPG) desarrollado por Blizzard Entertainment. Ambientado en el mundo de fantasía de Azeroth, los jugadores pueden explorar vastos paisajes, completar misiones, enfrentarse a monstruos y otros jugadores, y participar en actividades como la creación de personajes, la recolección de recursos y el combate jugador contra jugador. Actualmente se encuentra en la expanción de Dragonflight.</td>
+            <td><b>Año: </b>2004 <br><b>Pais: </b>EE.UU<br><b>Desarrolladora: </b>Blizzard <br><b>Género: </b>MMORPG</td>
+            <td><img src="/img/xogos/wow.jpg" id="wow" class="imagenes-xogos" alt="World of Warcraft"></td> 
+        </tr>
+        <tr id="d-cs2">
+            <td><b>Counter-Strike 2</b></td>
+            <td>Counter-Strike 2 es un videojuego de disparos táctico en primera persona multijugador de 2023 desarrollado y publicado por Valve. Es la quinta entrega principal de la serie Counter-Strike. Desarrollado como una versión actualizada de la entrada principal anterior, Counter-Strike: Global Offensive (2012), se anunció el 22 de marzo de 2023 y se lanzó el 27 de septiembre de 2023, reemplazando a Global Offensive en Steam.</td>
+            <td><b>Año: </b>2023 <br><b>Pais: </b>EE.UU<br><b>Desarrolladora: </b>Valve <br><b>Género: </b>Shooter</td>
+            <td><img src="/img/xogos/cs2.jpg" id="cs2" class="imagenes-xogos" alt="Counter-Strike 2"></td>
+        </tr>
+        <tr id="d-cod">
+            <td><b>Call of Duty: Black Ops II</b></td>
+            <td>"Call of Duty: Black Ops II" es un videojuego de disparos en primera persona desarrollado por Treyarch y publicado por Activision en 2012. El juego se desarrolla en dos líneas temporales diferentes: una durante la Guerra Fría en la década de 1980 y otra en un futuro distópico en 2025.
+                En la trama de los años 80, el jugador sigue a personajes como Alex Mason, Frank Woods y Jason Hudson en misiones encubiertas relacionadas con la Guerra Fría y la lucha contra la amenaza soviética.
+                En la línea temporal de 2025, el juego se centra en David Mason, el hijo de Alex Mason, quien trabaja para detener a un carismático y peligroso terrorista llamado Raul Menendez. Menendez, con un pasado oscuro y motivaciones personales, intenta desatar el caos global utilizando armas y tecnología avanzada.</td>
+            <td><b>Año: </b>2012 <br><b>Pais: </b>EE.UU<br><b>Desarrolladora: </b>Treyarch <br><b>Género: </b>Shooter</td>
+            <td><img src="/img/xogos/cod.jpg" id="cod" class="imagenes-xogos" alt="Call of Duty: Black Ops II"></td>
+        </tr>
+      </table> 
+      <footer>
+        <p id="foot-text">Spiderman™</p>
+        <a href="https://twitter.com/SpiderMan"><img id="x" src="../img/websites/x.png" title="X"></a>
+        <a href="https://www.instagram.com/spiderman/"><img id="instagram" src="../img/websites/instagram.png" title="Instagram"></a>
+        <a href="https://www.facebook.com/ElHombreAranaOficial/?locale=es_LA"><img id="facebook" src="../img/websites/facebook.png" title="Facebook"></a>
+        <a href="https://www.youtube.com/c/spiderman"><img id="youtube" src="../img/websites/youtube.png" title="Youtube"></a>
+    </footer>
+    <script>
+        $( ".change" ).on("click", function() {
+            if( $( "body" ).hasClass( "dark" )) {
+                $( "body" ).removeClass( "dark" );
+                $( ".change" ).text( "DARK MODE" );
+            } else {
+                $( "body" ).addClass( "dark" );
+                $( ".change" ).text( "LIGHT MODE" );
+            }
+        });
+    </script>
+</body>
+</html>
